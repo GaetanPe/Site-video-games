@@ -1,0 +1,23 @@
+﻿@model SiteVideoGames.Models.Games
+@{
+    ViewData["Title"] = "Games-Detail";
+}
+
+<div class="games">
+    <img  class="imgGamesDetail" src=@Model.ImageGame />
+    <div class ="infoGames">
+        <p class="nameGames">@Model.NameGame</p>
+        
+        <p>Description: @Model.Description</p>
+        <p>Date of Publication: @Model.DateOfPublication</p>
+        <p>Type of game: @Model.TypeOfGame</p>
+        <p>Development: @Model.Development</p>
+        <p>Edition: @Model.Edition</p>
+        <div >
+            <p>Platforms: @Model.Platforms</p>
+            <p class="priceGames"> Price: @Model.Price €</p>
+        </div>
+        
+    </div>
+    
+</div>

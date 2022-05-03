@@ -1,0 +1,24 @@
+﻿@model SiteVideoGames.Models.Games[]
+@{
+    ViewData["Title"] = "Shop page";
+}
+ 
+@foreach (var info in Model)
+{
+    <div>
+    <a href="/GamesDetail/@info.NameGame">
+        <div class = "games-list" >
+            <img class="imgGames" src=@info.ImageGame>
+            <div class ="infoGames">
+                <p class="nameGames">@info.NameGame</p>
+                <div >
+                    <p >Platforms: @info.Platforms</p>
+                    <p class="priceGames">Price: @info.Price €</p>
+                </div>
+            </div>
+        </div>
+   </a>
+</div>
+
+}
+

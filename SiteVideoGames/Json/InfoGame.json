@@ -1,0 +1,27 @@
+[
+
+  {
+    "NameGame": "Black Desert Online",
+    "imageGame": "/image/bdo.jpg",
+    "Description": "Black Desert is an MMORPG set in a constantly changing living world. Discover fast and dynamic battles, hunt monsters, defeat gigantic bosses, fight alongside your guild partners in wars, learn numerous professions...",
+    "TypeOfGame": " Action, Adventure, Massively multiplayer, RPG, Simulation, Strategy",
+    "Development": "Pearl Abyss",
+    "Edition": "Pearl Abyss",
+    "DateOfPublication": "24 Mai 2017 ",
+    "Platforms": " PlayStation 4, Xbox One, PlayStation 5, Xbox Series, iOS, Microsoft Windows, Android",
+    "Price": 9.99
+  },
+
+  {
+    "NameGame": "Genshin Impact",
+    "imageGame": "/image/Genshin.jpg",
+    "Description": "In the game, you will discover the fantastic world of Teyvat, and your steps will take you through seven countries to meet characters from all walks of life, who will accompany you in your battles and your quest.",
+    "TypeOfGame": " Role-playing games, Open world, Adventure, Multiplayer,",
+    "Development": "MiHoYo, Shanghai Miha Touring Film Technology Co.,COGNOSPHERE PTE. LTD.",
+    "Edition": " MiHoYo, COGNOSPHERE PTE. LTD",
+    "DateOfPublication": "9 Juin 2021 ",
+    "Platforms": "  PlayStation 4, Nintendo Switch, Android, PlayStation 5, iOS, Microsoft Windows",
+    "Price": 0
+  }
+
+]

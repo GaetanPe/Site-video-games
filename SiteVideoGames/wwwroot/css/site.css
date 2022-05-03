@@ -1,0 +1,83 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color : black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.display-4{
+    color: white;
+}
+
+.games-list {
+    border: 2px solid;
+    border-color: white;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    display :flex;
+    margin-top: 2%;
+}
+
+.games-list:hover{
+    background-color:gray;
+}
+
+.games{
+    display : flex;
+    color: white;
+}
+
+.imgGames {
+    margin: 8px;
+    width : 20%;
+    height: auto;
+}
+.imgGamesDetail{
+    width: 45%;
+}
+.infoGames{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.infoGames p {
+    margin: 0;
+    display: inline;
+    padding-left: 2%;
+    
+}
+
+.nameGames {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.priceGames {
+    padding-top: 0%;
+    float: right;
+}
+
+footer {
+    background-color: white;
+}
